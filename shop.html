@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <script src="JQUERY/jquery.js"></script>
+     <script src="JS/functions.js"></script>
+     
+</head>
+<body>
+   
+   <header>
+       
+       <h3 id="companyname">
+           
+           Balzan MetalWorks
+       </h3>
+       
+       <nav>
+           
+           <ul id="navmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact </a></li>
+           </ul>
+
+           <ul id="hidebutton">
+            <li>
+                <li><button id="togglebutton">Hide</button></li>
+
+            </li>
+           </ul>
+       </nav>
+       
+   </header>
+
+   <section class ="mainsection">
+    <h2 class="title">
+        
+        Shop
+    </h2>
+    
+    <section class ="shopsection">
+        <section class ="shopimagesection">
+            <img id="railings" src="IMAGES/Railings.jpg" alt="Railings">
+        </section>
+        <h4 class = "itemname" id="railingtext">
+            Railings
+
+        </h4>
+        <section class = "shopinteract">
+
+            <button class = "addtocart" onclick="cartalert()" >
+                Add to cart
+            </button>
+
+            <button class = "info" onclick = "toggleInfoVisiblity('railingtext')">
+                Info
+            </button>
+
+        </section>
+        
+    </section>
+
+    <section class ="shopsection">
+        <section class ="shopimagesection">
+            <img id="fences" src="IMAGES/Fences.jpg" alt="Fences">
+        </section>
+        <h4 class = "itemname" id="fencestext">
+            Fences
+
+        </h4>
+        <section class = "shopinteract">
+
+            <button class = "addtocart" onclick="cartalert()" >
+                Add to cart
+            </button>
+
+            <button class = "info" onclick = "toggleInfoVisiblity('fencestext')">
+                Info
+            </button>
+
+        </section>
+        
+    </section>
+
+
+    <section class ="shopsection">
+        <section class ="shopimagesection">
+            <img id="wallhook" src="IMAGES/WallHook.jpg" alt="WallHook">
+        </section>
+        <h4 class = "itemname" id="hooktext">
+            Wall Hook
+
+        </h4>
+        <section class = "shopinteract">
+
+            <button class = "addtocart" onclick="cartalert()" >
+                Add to cart
+            </button>
+
+            <button class = "info" onclick = "toggleInfoVisiblity('hooktext')">
+                Info
+            </button>
+
+        </section>
+        
+    </section>
+
+    <section class ="shopsection">
+        <section class ="shopimagesection">
+            <img id="gate" src="IMAGES/Gate.jpg" alt="Gate">
+        </section>
+        <h4 class = "itemname" id= "gatetext">
+            Gate
+
+        </h4>
+        <section class = "shopinteract">
+
+            <button class = "addtocart" onclick="cartalert()" >
+                Add to cart
+            </button>
+
+            <button class = "info" onclick = "toggleInfoVisiblity('gatetext')">
+                Info
+            </button>
+
+        </section>
+        
+    </section>
+
+
+
+
+    
+</section>
+   
+   
+   <footer>
+       <h4 id="contactinfo">
+        Chanelle Cacciattolo 4.1D © School Project
+       </h4>
+       
+   </footer>
+    
+</body>
+</html>
