@@ -86,7 +86,9 @@ function toggleInfoVisiblity(element){
             }
         
         });
+        
         //https://www.jqueryscript.net/lightbox/lightbox2.html
+        if (typeof lightbox !== "undefined") {
        lightbox.option({
             albumLabel:'Image %1 of %2',
             resizeDuration: 200,
@@ -99,7 +101,7 @@ function toggleInfoVisiblity(element){
 
             });
         
-
+    }
        
     });
 })(jQuery);
