@@ -2,15 +2,14 @@
 * {   
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html{
     height: 100%;
     background-color: rgb(101, 33, 11);
-    background-repeat: no-repeat, repeat;
+    background-repeat: repeat;
     background-position: center; 
-    background-repeat: no-repeat; 
     background-size: cover; 
     background-attachment: fixed;
     color: white;
@@ -24,8 +23,7 @@ body{
     height: 100%;
     margin-left: 10%;
     border-radius: 10px;
-    background-repeat: no-repeat, repeat;
-    background-repeat: no-repeat; 
+    background-repeat: repeat;
     background-size: cover;
     padding-bottom: 30%;
 
@@ -44,17 +42,12 @@ body{
 }
 
 
-
-
-
-#companyname{
-    padding-left: 2%;
-}
 #companyname {
     float: left;
     margin-right: 2%;
     width: 40%;
     padding-top: 1%;
+    padding-left: 2%;
 }
 
 .title{
@@ -87,9 +80,8 @@ body{
 #homerightimage, #homeleftimage {
     float: left;
     width: 42%;
-    background-repeat: no-repeat, repeat;
+    background-repeat: repeat;
     background-position: center; 
-    background-repeat: no-repeat; 
     background-size: cover; 
     border-style: solid;
     border-width: 5px;
@@ -149,7 +141,7 @@ li a {
 @media only screen and (min-width: 700px) and (max-width: 4000px){
 
     header{
-        height: 40px;
+        height: 60px;
         margin-bottom: 2%;
         margin-top: 5%;
         border-radius: 8px;
@@ -157,9 +149,8 @@ li a {
     }
     .mainsection {
         background-color: rgb(62, 22, 22);
-        background-repeat: no-repeat, repeat;
+        background-repeat: repeat;
         background-position: center; 
-        background-repeat: no-repeat; 
         background-size: cover; 
         background-attachment: fixed;
         
@@ -274,9 +265,8 @@ header, footer, .mainsection{
     }
     .mainsection {
         background-color: rgb(62, 22, 22);
-        background-repeat: no-repeat, repeat;
+        background-repeat: repeat;
         background-position: center; 
-        background-repeat: no-repeat; 
         background-size: cover; 
         background-attachment: fixed;
         
@@ -316,9 +306,8 @@ header, footer, .mainsection{
 
     .shopimagesection{
         float: left;
-        background-repeat: no-repeat, repeat;
+        background-repeat: repeat;
         background-position: center; 
-        background-repeat: no-repeat; 
         background-size: cover;
         height: 80px;
     }
@@ -390,9 +379,8 @@ header, footer, .mainsection{
 
 .galleryimagesection{
     float: left;
-    background-repeat: no-repeat, repeat;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: repeat;
+    background-position: center;  
     background-size: cover;
     width: 30%;
     height: 400px;
